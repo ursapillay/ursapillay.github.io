@@ -15,12 +15,22 @@ h1 {
     padding: 20px;
 }
 
-h2 {
+h2, h3 {
   color: steelblue;
 }
 
 p {
     padding: 5px;
+}
+
+div.top-bar {
+  position:fixed;
+  width:100%;
+  z-index:1;
+  top: 0;
+  margin:auto;
+  text-align: center;
+  background-color: steelblue;
 }
 
 div.gallery {
