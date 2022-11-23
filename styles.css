@@ -28,7 +28,6 @@ div.gallery {
     border: 1px solid;
     float: left;
     max-width: 1200px;
-    text-align: center;
   }
   
   div.gallery:hover {
@@ -37,7 +36,6 @@ div.gallery {
   
   div.gallery img {
     width: 100%;
-    display: block;
   }
   
   div.desc {
