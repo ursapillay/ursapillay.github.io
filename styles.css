@@ -14,6 +14,7 @@ body {
 h1 {
     padding: 20px;
     text-align: center;
+    color: rgba(34, 80, 118, 0.803)
 }
 
 h2, h3 {
@@ -26,9 +27,10 @@ p {
 
 .top-bar {
   overflow: hidden;
-  background-color: steelblue;
+  background-color: whitesmoke;
   position:fixed;
   top: 0;
+  max-width:1200px;
   width:100%;
   margin:auto;
   }
