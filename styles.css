@@ -6,7 +6,9 @@ body {
     background-color: lavenderblush;
     text-align: center;
     max-width:1200px;
-    margin-top:100px
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto
 }
 
 h1 {
@@ -26,6 +28,7 @@ div.gallery {
     border: 1px solid;
     float: left;
     max-width: 1200px;
+    text-align: center;
   }
   
   div.gallery:hover {
@@ -34,6 +37,7 @@ div.gallery {
   
   div.gallery img {
     width: 100%;
+    display: block;
   }
   
   div.desc {
